@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" href="/assets/foto/GN1.png">
+	<title>genznodes - Node Operator</title>
+	<link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="logo">
+			<img src="/assets/foto/GN transparant.png" alt="logo" class="logo-img" />		
+		</div>
+		<nav>
+			<ul>
+				<li><a href="/index.html">HOME</a></li>				
+				<button class="btn-cta" onclick="redirMedium()">blog</button>
+			</ul>
+		</nav>		
+	</header>
+	<!-- <div class="parallax">
+		<div class="intro">
+			<p class="title">genznodes :)</p>
+			<p class="description">Active 24 hours with 99% uptime</p>
+			<button class="btn-cta" onclick="redirMail()">touch me !</button>
+		</div>
+	</div> -->
+	<div class="parallax">
+		<div class="about">
+			<!-- navbar 1 -->
+			<p class="title">ACTIVE TESTNET</p>
+			<div>
+				<li><a href="/index.html">MAINNET</a></li>
+				<li><a href="/ended/end.html">ENDED/ARCHIVE</a></li>
+				<li><a href="/upcoming/upcoming.html">UPCOMING</a></li>
+                <li><button class="btn-genz"><a href="">EXPLORER</a></button></li>
+			</div>
+		</div>
+		<div class="container">
+			<div class="card-index" id="service">
+				<!-- MUN -->
+				<div class="card-item">					
+					<img src="/assets/icon/mun.png" alt="icon test 1" class="icon" />
+					<p class="card-title">MUN</p>
+					<p class="card-description">testmun-1</p>					
+					<p><button class="btn-genz" onclick="redirMun()">explore</button></p>
+				</div>
+				<!-- NIBIRU -->
+				<div class="card-item">
+					<img src="/assets/icon/nibiru.jpg" alt="icon test 2" class="icon" />
+					<p class="card-title">NIBIRU</p>
+					<p class="card-description">nibiru-testnet-1</p>
+					<p><button class="btn-genz" onclick="redirNibid()">explore</button></p>
+				</div>
+				<div class="card-item">
+					<img src="/assets/icon/stratos.png" alt="icon test 3" class="icon" />
+					<p class="card-title">STRATOS</p>
+					<p class="card-description">tropos-4</p>
+					<p><button class="btn-genz" onclick="redirStchaind()">explore</button></p>
+				</div>
+				<!-- inery -->
+				<div class="card-item">
+					<img src="/assets/icon/INERY.jpg" alt="icon test 4" class="icon" />
+					<p class="card-title">INERY</p>
+					<p class="card-description">testnet</p>
+					<p><button class="btn-genz" onclick="redirInery()">explore</button></p>
+				</div>
+				<!-- wormholes -->
+				<div class="card-item">
+					<img src="/assets/icon/wormholes.jpg" alt="icon test 5" class="icon" />
+					<p class="card-title">WORMHOLES</p>
+					<p class="card-description">testnet</p>
+					<p><button class="btn-genz" onclick="redirWorm()">explore</button></p>
+				</div>
+								
+				<!-- ZEEKA -->
+				<div class="card-item">
+					<img src="/assets/icon/zeeka.jpg" alt="icon test 7" class="icon" />
+					<p class="card-title">ZEEKA</p>
+					<p class="card-description">testnet</p>
+					<p><button class="btn-genz" onclick="redirZeeka()">explore</button></p>
+				</div>
+                
+				<!-- LOYAL -->
+				<div class="card-item">
+					<img src="/assets/icon/loyal.jpg" alt="icon test 8" class="icon" />
+					<p class="card-title">loyal</p>
+					<p class="card-description">testnet</p>
+					<p><button class="btn-genz" onclick="redirLoyal()">explore</button></p>
+				</div>
+				<!-- aleph -->
+				<div class="card-item">
+					<img src="/assets/icon/aleph.jpg" alt="icon test 9" class="icon" />
+					<p class="card-title">ALEPH-ZERO</p>
+					<p class="card-description">devnet</p>
+					<p><button class="btn-genz" onclick="redirAleph()">explore</button></p>
+				</div>
+				<!-- neutron -->
+				<div class="card-item">
+					<img src="/assets/icon/neutron.jpg" alt="icon test 10" class="icon" />
+					<p class="card-title">NEUTRON</p>
+					<p class="card-description">testnet</p>
+					<p><button class="btn-genz" onclick="redirNeutrond()">explore</button></p>
+				</div>
+
+                <!-- POWER -->
+                <div class="card-item">										
+					<img src="/assets/icon/power.jpg" alt="icon test 11" class="icon" />
+					<p class="card-title">Power</p>
+					<p class="card-description">testnet</p>
+					<a href="https://zabbix.thepower.io/zabbix.php?action=dashboard.view">
+						<button class="btn-genz">explore</button>
+					</a>
+                    <a href="https://github.com/Genz22/Testnet-node/tree/main/Power-Ecosystem">
+						<button class="btn-genz">guide</button>
+					</a>
+				</div>
+                
+				<!-- gitopia -->
+                <div class="card-item">										
+					<img src="/assets/icon/gitopia.png" alt="icon test 12" class="icon" />
+					<p class="card-title">gitopia</p>
+					<p class="card-description">testnet</p>
+					<a>
+						<button class="btn-genz">explore</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<!-- <div class="footer-basic">
+		<footer>
+			<div class="social">
+				<a href="https://github.com/Genz22">
+					<i class="icon ion-social-github"></i>
+				</a>
+				<a href="https://twitter.com/genznodes">
+					<i class="icon ion-social-twitter"></i>
+				</a>
+			</div>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="#">Home</a></li>
+				<li class="list-inline-item"><a href="">Services</a></li>
+				<li class="list-inline-item"><a href="">About</a></li>
+			</ul>
+			<p class="copyright">genznodes © 2022</p>
+		</footer>
+	</div> -->
+</body>
+<script src="/index.js"></script>
+
+</html>
